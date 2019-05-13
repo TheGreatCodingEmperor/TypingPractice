@@ -41,9 +41,6 @@ div .Row{
     border: solid grey 4px;
     border-radius: 40%;
 }
-div .fill{
-    border: none;
-}
 .react{
     animation: flash 1.2s;
   }
@@ -56,3 +53,30 @@ div .fill{
         background-color : black;
     }
   }
+  @media only screen and (max-width: 1050px) {
+    .Row div{
+        width:40px;
+        height:40px;
+        text-align:center;
+        font-family:Verdana;
+        font-size: 25px;
+        color:grey;
+        border: solid grey 4px;
+        border-radius: 40%;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .Row div{
+        width:20px;
+        height:20px;
+        text-align:center;
+        font-family:Verdana;
+        font-size: 15px;
+        color:grey;
+        border: solid grey 4px;
+        border-radius: 40%;
+    }
+  }
+div .fill{
+    border: none;
+}
