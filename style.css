@@ -1,0 +1,58 @@
+body,html{
+    height:100%;
+    width:100%;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+.board{
+    height:80px;
+    width:80px;
+    text-align:center;
+    font-size: 60px;
+    font-family:Verdana;
+    background-color:grey;
+    border:solid grey 4px;
+    border-radius: 20%;
+    color:black;
+}
+
+
+
+div .type{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+div .Row{
+    display:flex;
+    justify-content:center;
+}
+.Row div{
+    width:60px;
+    height:60px;
+    text-align:center;
+    font-family:Verdana;
+    font-size: 40px;
+    color:grey;
+    border: solid grey 4px;
+    border-radius: 40%;
+}
+div .fill{
+    border: none;
+}
+.react{
+    animation: flash 1.2s;
+  }
+  
+  @keyframes flash {
+    from{
+        background-color : grey;
+    }
+    to{
+        background-color : black;
+    }
+  }
